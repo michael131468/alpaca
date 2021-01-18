@@ -1,4 +1,4 @@
 #include "alpaca.h"
 int count_alpacas() {
-    return 0;
+    return 1;
 }
