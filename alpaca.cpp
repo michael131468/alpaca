@@ -1,4 +1,8 @@
 #include "alpaca.h"
-int count_alpacas() {
+int magic_counter() {
     return 2;
+}
+
+int count_alpacas() {
+    return magic_counter();
 }
