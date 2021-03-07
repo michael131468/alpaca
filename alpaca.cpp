@@ -1,8 +1,13 @@
 #include "alpaca.h"
-int magic_counter() {
-    return 2;
+
+#include <cstdlib>
+
+int* magic_counter() {
+    int* ptr = (int*) malloc(sizeof(int));
+    *ptr = 3;
+    return ptr;
 }
 
-int count_alpacas() {
+int* count_alpacas() {
     return magic_counter();
 }

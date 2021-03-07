@@ -1,4 +1,4 @@
 #ifndef ALPACA_H
 #define ALPACA_H
-int count_alpacas();
+int* count_alpacas();
 #endif
